@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/base.apk:data/app/com.keramidas.TitaniumBackup-1/base.apk \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/lib/arm/libtitanium.so:data/app/com.keramidas.TitaniumBackup-1/lib/arm/libtitanium.so \
-	vendor/samsung/matissewifi/proprietary/app/TitaniumBackupPro/base.apk:data/app/com.keramidas.TitaniumBackupPro-1/base.apk \
+	vendor/samsung/matissewifi/proprietary/app/TitaniumBackupPro/base.apk:data/app/com.keramidas.TitaniumBackupPro-1/base.apk \vendor/samsung/matissewifi/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/matissewifi/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so 
 # Qualcomm framework Dual-sim
 PRODUCT_COPY_FILES += \
@@ -112,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/samsung/matissewifi/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/matissewifi/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/matissewifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
@@ -306,6 +307,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/samsung/matissewifi/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
     vendor/samsung/matissewifi/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so
+
+# audiofx fix
+PRODUCT_COPY_FILES += \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/lib/soundfx/libqcomvoiceprocessingdescriptors.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    vendor/samsung/matissewifi/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    vendor/samsung/matissewifi/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
 
 # adb
 PRODUCT_COPY_FILES += \
