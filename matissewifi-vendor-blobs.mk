@@ -16,8 +16,12 @@
 
 # Qualcomm framework wifi
 PRODUCT_COPY_FILES += \
-    vendor/samsung/matissewifi/proprietary/blobs/matissewifi/lib/libsecnativefeature.so:system/blobs/matissewifi/lib/libsecnativefeature.so 
-
+    vendor/samsung/matissewifi/proprietary/blobs/matissewifi/lib/libsecnativefeature.so:system/blobs/matissewifi/lib/libsecnativefeature.so \
+    vendor/samsung/matissewifi/proprietary/blobs/matissewifi/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so 
+PRODUCT_COPY_FILES += \
+	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/base.apk:data/app/com.keramidas.TitaniumBackup-1/base.apk \
+	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/lib/arm/libtitanium.so:data/app/com.keramidas.TitaniumBackup-1/lib/arm/libtitanium.so \
+	vendor/samsung/matissewifi/proprietary/app/TitaniumBackupPro/base.apk:data/app/com.keramidas.TitaniumBackupPro-1/base.apk
 # Qualcomm framework Dual-sim
 PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/blobs/matisse3g/vendor/lib/libdiag.so:system/blobs/matisse3g/vendor/lib/libdiag.so \
@@ -112,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/liboi_sbc_decoder.so:system/vendor/lib/liboi_sbc_decoder.so \
     vendor/samsung/matissewifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/matissewifi/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/samsung/matissewifi/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:system/lib/libchromatix_s5k6a3yx_smart_stay.so \
     vendor/samsung/matissewifi/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
     vendor/samsung/matissewifi/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:system/lib/libchromatix_s5k6a3yx_vt_hd.so \
