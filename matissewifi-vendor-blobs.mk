@@ -18,11 +18,23 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/blobs/matissewifi/lib/libsecnativefeature.so:system/blobs/matissewifi/lib/libsecnativefeature.so \
     vendor/samsung/matissewifi/proprietary/blobs/matissewifi/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so 
+
 PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/base.apk:data/app/com.keramidas.TitaniumBackup-1/base.apk \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/lib/arm/libtitanium.so:data/app/com.keramidas.TitaniumBackup-1/lib/arm/libtitanium.so \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackupPro/base.apk:data/app/com.keramidas.TitaniumBackupPro-1/base.apk \vendor/samsung/matissewifi/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/samsung/matissewifi/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so 
+    vendor/samsung/matissewifi/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/matissewifi/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/samsung/matissewifi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+    vendor/samsung/matissewifi/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/samsung/matissewifi/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/samsung/matissewifi/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/samsung/matissewifi/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/samsung/matissewifi/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+
+
 # Qualcomm framework Dual-sim
 PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/blobs/matisse3g/vendor/lib/libdiag.so:system/blobs/matisse3g/vendor/lib/libdiag.so \
