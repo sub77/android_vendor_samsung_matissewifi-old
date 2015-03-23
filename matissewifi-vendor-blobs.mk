@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/base.apk:data/app/com.keramidas.TitaniumBackup-1/base.apk \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/lib/arm/libtitanium.so:data/app/com.keramidas.TitaniumBackup-1/lib/arm/libtitanium.so \
-	vendor/samsung/matissewifi/proprietary/app/TitaniumBackupPro/base.apk:data/app/com.keramidas.TitaniumBackupPro-1/base.apk
+	vendor/samsung/matissewifi/proprietary/app/TitaniumBackupPro/base.apk:data/app/com.keramidas.TitaniumBackupPro-1/base.apk \
+    vendor/samsung/matissewifi/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so 
 # Qualcomm framework Dual-sim
 PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/blobs/matisse3g/vendor/lib/libdiag.so:system/blobs/matisse3g/vendor/lib/libdiag.so \
