@@ -16,7 +16,11 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    com.qualcomm.location
+ 	libtime_genoff \
+ 	libTimeService \
+ 	TimeService \
+	TitaniumBackup \
+	TitaniumBackupPro \
+	Viper
 
 $(call inherit-product, vendor/samsung/matissewifi/matissewifi-vendor-blobs.mk)

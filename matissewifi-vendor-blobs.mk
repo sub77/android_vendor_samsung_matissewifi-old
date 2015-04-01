@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/TitaniumBackup.apk:data/app/com.keramidas.TitaniumBackup-1/base.apk \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackup/lib/arm/libtitanium.so:data/app/com.keramidas.TitaniumBackup-1/lib/arm/libtitanium.so \
 	vendor/samsung/matissewifi/proprietary/app/TitaniumBackupPro/TitaniumBackupPro.apk:data/app/com.keramidas.TitaniumBackupPro-1/base.apk \vendor/samsung/matissewifi/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/samsung/matissewifi/proprietary/app/Viper/Viper.apk:system/app/Viper/Viper.apk \
+    vendor/samsung/matissewifi/proprietary/app/Viper/lib/arm/libV4AJniUtils.so:system/app/Viper/lib/arm/libV4AJniUtils.so \
     vendor/samsung/matissewifi/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so
 
 PRODUCT_COPY_FILES += \
